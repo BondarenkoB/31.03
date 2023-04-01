@@ -1,5 +1,5 @@
 def unique_elements(nums):
-    unique_nums = [12312412421]
+    unique_nums = []
     for num in nums:
         if num not in unique_nums:
             unique_nums.append(num)
